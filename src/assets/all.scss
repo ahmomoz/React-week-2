@@ -1,0 +1,45 @@
+@import 'bootstrap/scss/bootstrap';
+
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.primary-image {
+  height: 300px;
+}
+
+.images {
+  height: 150px;
+}
+
+.loading {
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+  background-color: rgba(255, 255, 255, .3);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
